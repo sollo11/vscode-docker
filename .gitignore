@@ -1,0 +1,12 @@
+
+.vs/tasks.vs.json
+.gitmodules
+CONTRIBUTING.md
+LICENSE
+public/favicon.png
+public/favicon.next.png
+public/favicon.default.png
+.vs/slnx.sqlite
+public/images/hero-bg-right.svg
+public/images/hero-bg-left.svg
+Makefile
