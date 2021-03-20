@@ -2944,4 +2944,3 @@ translations/zh-CN/data/variables/valkyrie.yml
 {{ message }}.gitlab-ci.yml
 public/index.js
 public/index.html
-public/index.html
