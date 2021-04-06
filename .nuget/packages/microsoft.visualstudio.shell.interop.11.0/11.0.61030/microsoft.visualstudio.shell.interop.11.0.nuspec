@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.VisualStudio.Shell.Interop.11.0</id>
+    <version>11.0.61030</version>
+    <title>Microsoft.VisualStudio.Shell.Interop.11.0</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft,VisualStudioExtensibility</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkID=614949</licenseUrl>
+    <projectUrl>http://aka.ms/vsextensibility</projectUrl>
+    <iconUrl>http://aka.ms/vsextensibilityicon</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft.VisualStudio.Shell.Interop.11.0</description>
+    <summary>Microsoft.VisualStudio.Shell.Interop.11.0</summary>
+    <releaseNotes>https://www.visualstudio.com/news/vs2015-vs</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Microsoft VisualStudio Shell Interop 11.0 VSSDK</tags>
+    <dependencies>
+      <dependency id="Microsoft.VisualStudio.Shell.Interop.8.0" version="8.0.50727" />
+      <dependency id="Microsoft.VisualStudio.Shell.Interop.10.0" version="10.0.30319" />
+      <dependency id="Microsoft.VisualStudio.Shell.Interop" version="7.10.6071" />
+      <dependency id="Microsoft.VisualStudio.OLE.Interop" version="7.10.6070" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,19 @@
+[core]
+	editor = Visual Studio Code --wait
+	autocrlf = true
+[pull]
+	rebase = false
+[fetch]
+	prune = false
+[rebase]
+	autoStash = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	email = 78496768+sollo11@users.noreply.github.com
+	name = sollo11
+[commit]
+	template = C:\\-1--2.sim.0001\\$$$.txt

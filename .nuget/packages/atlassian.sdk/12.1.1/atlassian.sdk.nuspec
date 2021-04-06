@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Atlassian.SDK</id>
+    <version>12.1.1</version>
+    <authors>Federico Silva Armas</authors>
+    <owners>Federico Silva Armas</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">BSD-2-Clause</license>
+    <licenseUrl>https://licenses.nuget.org/BSD-2-Clause</licenseUrl>
+    <projectUrl>https://bitbucket.org/farmas/atlassian.net-sdk</projectUrl>
+    <iconUrl>https://res.cloudinary.com/farmas/image/upload/v1581984204/atlassian/AtlassianIcon.png</iconUrl>
+    <description>Utilities to interact with Atlassian products. Contains LinqToJira provider for querying JIRA Issue tracker (http://www.atlassian.com/software/jira).</description>
+    <releaseNotes>For change history, visit: https://bitbucket.org/farmas/atlassian.net-sdk/src/master/docs/change-history.md</releaseNotes>
+    <copyright>https://bitbucket.org/farmas/atlassian.net-sdk</copyright>
+    <tags>Atlassian JIRA LINQ</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2">
+        <dependency id="Newtonsoft.Json" version="10.0.3" exclude="Build,Analyzers" />
+        <dependency id="RestSharp" version="106.10.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="10.0.3" exclude="Build,Analyzers" />
+        <dependency id="RestSharp" version="106.10.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

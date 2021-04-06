@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Microsoft.TeamFoundation.Client</id>
+        <version>11.0.51106.2</version>
+        <title>Microsoft TeamFoundation Client</title>
+        <authors>pandincus</authors>
+        <owners />
+        <projectUrl>http://msdn.microsoft.com/en-us/library/microsoft.teamfoundation.client.aspx</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>NOTE: This package is not necessary if you have the latest version of Visual Studio 2012 installed. If, however, you want to build from a CI server or other machine, then this package may be useful.
+
+The Microsoft.TeamFoundation.Client namespace provides the APIs to connect to Visual Studio Team Foundation Server and to access data about team project collections and team projects.</description>
+        <tags>microsoft teamfoundation client</tags>
+    </metadata>
+</package>

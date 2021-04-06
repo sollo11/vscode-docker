@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VSSDK.ComponentModelHost</id>
+    <version>12.0.4</version>
+    <authors>Sam Harwell</authors>
+    <owners>Sam Harwell</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package provides the Visual Studio "MEF Component Model Host" reference assembly used by Visual Studio 2013 and newer.
+
+      Microsoft.VisualStudio.ComponentModelHost.dll</description>
+    <summary>Visual Studio (MEF Component Model Host) for Visual Studio 2013+</summary>
+    <tags>vssdk vs2013 vs2015</tags>
+    <dependencies>
+      <dependency id="VSSDK.IDE.12" version="[12.0.4, 13.0.0)" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

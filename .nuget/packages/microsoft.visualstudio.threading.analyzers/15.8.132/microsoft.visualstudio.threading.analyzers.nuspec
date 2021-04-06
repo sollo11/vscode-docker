@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.VisualStudio.Threading.Analyzers</id>
+    <version>15.8.132</version>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/Microsoft/vs-threading/4c12c4dcc0/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Microsoft/vs-threading</projectUrl>
+    <iconUrl>https://aka.ms/VsExtensibilityIcon</iconUrl>
+    <description>Static code analyzer to detect common mistakes or potential issues on the C# code that uses Visual Studio SDK APIs.</description>
+    <releaseNotes>In the v15.8 release, analyzers are incomplete in the context of Visual Studio without the Microsoft.VisualStudio.Sdk.Analyzers 15.8 package also installed.</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>analyzers visualstudio vssdk sdk threading</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard1.1" />
+    </dependencies>
+  </metadata>
+</package>

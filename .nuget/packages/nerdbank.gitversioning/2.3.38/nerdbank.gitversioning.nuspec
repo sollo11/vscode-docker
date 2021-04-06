@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Nerdbank.GitVersioning</id>
+    <version>2.3.38</version>
+    <title>Nerdbank.GitVersioning</title>
+    <authors>Andrew Arnott</authors>
+    <owners>aarnott</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <projectUrl>https://github.com/aarnott/Nerdbank.GitVersioning</projectUrl>
+    <description>Stamps your assemblies with semver 2.0 compliant git commit specific version information and provides NuGet versioning information as well.</description>
+    <releaseNotes>https://github.com/AArnott/Nerdbank.GitVersioning/releases</releaseNotes>
+    <tags>git commit versioning version assemblyinfo</tags>
+  </metadata>
+</package>

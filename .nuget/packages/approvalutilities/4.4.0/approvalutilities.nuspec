@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>ApprovalUtilities</id>
+    <version>4.4.0</version>
+    <authors>Llewellyn Falco &amp; Dan Gilkerson &amp; Simon Cropp</authors>
+    <owners>Llewellyn Falco &amp; Dan Gilkerson &amp; Simon Cropp</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/approvals/ApprovalTests.Net</projectUrl>
+    <iconUrl>https://avatars3.githubusercontent.com/u/36907</iconUrl>
+    <description>Common helper classes developed with ApprovalTests</description>
+    <copyright>Copyright 2019 Llewellyn Falco &amp; Dan Gilkerson. All rights reserved</copyright>
+    <tags>Approvals ApprovalTests ApprovalTest Test Verification Verify Approve Testing</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.Data.SqlClient" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="System.Management" version="4.6.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Data.SqlClient" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="System.Management" version="4.6.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

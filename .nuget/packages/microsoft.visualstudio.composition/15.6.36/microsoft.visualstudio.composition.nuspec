@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.VisualStudio.Composition</id>
+    <version>15.6.36</version>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/Microsoft/vs-mef/a2a2e73614/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Microsoft/vs-mef</projectUrl>
+    <iconUrl>https://aka.ms/VsExtensibilityIcon</iconUrl>
+    <description>Lightning fast MEF engine, supporting System.ComponentModel.Composition and System.Composition.</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Mef Composition Extensibility</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="System.Collections.Immutable" version="1.1.36" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Dataflow" version="4.5.24" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Validation" version="15.0.82" exclude="Build,Analyzers" />
+        <dependency id="System.Composition" version="1.0.31" exclude="Build,Analyzers" />
+        <dependency id="System.Reflection.Emit" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp1.0">
+        <dependency id="Microsoft.NETCore.App" version="1.0.5" exclude="Build,Analyzers" />
+        <dependency id="System.Collections.Immutable" version="1.2.0" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Dataflow" version="4.6.0" exclude="Build,Analyzers" />
+        <dependency id="System.Reflection.TypeExtensions" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.Loader" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Validation" version="15.0.82" exclude="Build,Analyzers" />
+        <dependency id="System.Composition" version="1.0.31" exclude="Build,Analyzers" />
+        <dependency id="System.Reflection.Emit" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard1.5">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="System.Collections.Immutable" version="1.2.0" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Dataflow" version="4.6.0" exclude="Build,Analyzers" />
+        <dependency id="System.Reflection.TypeExtensions" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Validation" version="15.0.82" exclude="Build,Analyzers" />
+        <dependency id="System.Composition" version="1.0.31" exclude="Build,Analyzers" />
+        <dependency id="System.Reflection.Emit" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

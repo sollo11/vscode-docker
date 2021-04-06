@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>System.Reactive.Interfaces</id>
+    <version>4.2.0</version>
+    <authors>.NET Foundation and Contributors</authors>
+    <owners>.NET Foundation and Contributors</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/dotnet/reactive</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/dotnet/reactive/0f837d11385cfaf575861ccc5a5fbcafb22d888f/Rx.NET/Resources/Artwork/Logo.png</iconUrl>
+    <description>Reactive Extensions (Rx) for .NET - v3 compatibility facade for</description>
+    <copyright>Copyright (c) .NET Foundation and Contributors.</copyright>
+    <repository type="git" url="https://github.com/dotnet/reactive" commit="2aa27340155e0b3eb2f54b9d29e1db5575a2ac59" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6">
+        <dependency id="System.Reactive" version="4.2.0" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.3" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="UAP10.0">
+        <dependency id="System.Reactive" version="4.2.0" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.3" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Reactive" version="4.2.0" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks.Extensions" version="4.5.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

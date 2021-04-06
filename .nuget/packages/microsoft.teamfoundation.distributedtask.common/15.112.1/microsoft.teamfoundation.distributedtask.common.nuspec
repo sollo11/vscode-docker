@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="3.4">
+    <id>Microsoft.TeamFoundation.DistributedTask.Common</id>
+    <version>15.112.1</version>
+    <title>Microsoft Visual Studio Services Distributed Task Common Client</title>
+    <authors>Microsoft</authors>
+    <owners>microsoft,nugetvss</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://go.microsoft.com/fwlink/?LinkId=329770</licenseUrl>
+    <projectUrl>https://go.microsoft.com/fwlink/?LinkId=613084</projectUrl>
+    <iconUrl>https://go.microsoft.com/fwlink/?LinkId=615568</iconUrl>
+    <description>Microsoft Visual Studio Services Distributed Task Common Client
+
+Later versions of this package can be found under: Microsoft.TeamFoundation.DistributedTask.Common.Contracts
+
+Integrate with Team Foundation Server and Visual Studio Team Services from desktop-based, ASP.NET, and other Windows applications.  Provides access to the Distributed Task Service via public REST APIs.</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Microsoft Team Foundation Server TFS VSO Visual Studio VisualStudio Online REST Distributed Task Build Client Object Model OM VSTS TeamFoundation</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Microsoft.Tpl.Dataflow" version="4.5.24" />
+        <dependency id="Newtonsoft.Json" version="8.0.3" />
+        <dependency id="Microsoft.VisualStudio.Services.Client" version="[15.112.1]" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.TeamFoundation.Build.Client</id>
+    <version>11.0.60610.1</version>
+    <title>Microsoft.TeamFoundation.Build.Client</title>
+    <authors>mnaoumov</authors>
+    <owners>Microsoft</owners>
+    <projectUrl>https://msdn.microsoft.com/en-us/library/microsoft.teamfoundation.build.client.aspx</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The Microsoft.TeamFoundation.Build.Client namespace provides the APIs necessary to interface a client application with the Team Foundation Server build functionality.
+You can find the Microsoft.TeamFoundation.Build.Client namespace in Microsoft.TeamFoundation.Build.Client.dll on any computer where Team Explorer is installed.
+
+I wasn't sure what the license is for this code, but I'd be happy to link to it/require acceptance if someone could point me in the right direction.</description>
+    <summary>The Microsoft.TeamFoundation.Build.Client namespace provides the APIs necessary to interface a client application with the Team Foundation Server build functionality.</summary>
+    <tags>microsoft teamfoundation build client</tags>
+  </metadata>
+</package>

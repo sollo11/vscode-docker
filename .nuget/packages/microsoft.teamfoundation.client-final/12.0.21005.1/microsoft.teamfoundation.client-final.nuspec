@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.TeamFoundation.Client-final</id>
+    <version>12.0.21005.1</version>
+    <title>Microsoft.TeamFoundation.Client-final</title>
+    <authors>mnaoumov</authors>
+    <owners>Microsoft</owners>
+    <projectUrl>https://msdn.microsoft.com/en-us/library/microsoft.teamfoundation.client.aspx</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The Microsoft.TeamFoundation.Client namespace provides the APIs to connect to Visual Studio Team Foundation Server and to access data about team project collections and team projects.
+You can use TfsConfigurationServer to connect to a team project, and you can use TfsTeamProjectCollection with CatalogNode to access data about team project collections and team projects. For more information, see Connect to Team Foundation Server from a Console Application.
+You can access more data about team projects by using TfsTeamProjectCollection.GetServiceInstance or TfsConfigurationServer.GetServiceInstance to obtain objects such as the WorkItemStore and VersionControlServer classes and the IBuildServer interface. For more information, see the discussion of GetServiceInstance in Connect to Team Foundation Server from a Console Application.
+
+I wasn't sure what the license is for this code, but I'd be happy to link to it/require acceptance if someone could point me in the right direction.</description>
+    <summary>The Microsoft.TeamFoundation.Client namespace provides the APIs to connect to Visual Studio Team Foundation Server and to access data about team project collections and team projects.</summary>
+    <tags>microsoft teamfoundation build client</tags>
+  </metadata>
+</package>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.VisualStudio.Shell.Immutable.12.0</id>
+    <version>12.0.21003</version>
+    <title>Microsoft.VisualStudio.Shell.Immutable.12.0</title>
+    <authors>Microsoft, VisualStudioExtensibility</authors>
+    <owners>Microsoft,VisualStudioExtensibility</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkID=614949</licenseUrl>
+    <projectUrl>http://aka.ms/vsextensibility</projectUrl>
+    <iconUrl>http://aka.ms/vsextensibilityicon</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft.VisualStudio.Shell.Immutable.12.0</description>
+    <summary>Microsoft.VisualStudio.Shell.Immutable.12.0</summary>
+    <releaseNotes>https://www.visualstudio.com/news/vs2015-vs</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Microsoft VisualStudio Shell Immutable Shell.Immutable 12 12.0 VSSDK</tags>
+  </metadata>
+</package>

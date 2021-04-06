@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>NString</id>
+    <version>1.2.0</version>
+    <authors>Thomas Levesque</authors>
+    <owners>Thomas Levesque</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/thomaslevesque/NString/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/thomaslevesque/NString/</projectUrl>
+    <description>A collection of utilities for working with strings in .NET.</description>
+    <releaseNotes>https://github.com/thomaslevesque/NString/blob/master/RELEASENOTES.md</releaseNotes>
+    <tags>string</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="System.Collections.Immutable" version="1.3.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard1.0">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="System.Collections.Immutable" version="1.3.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

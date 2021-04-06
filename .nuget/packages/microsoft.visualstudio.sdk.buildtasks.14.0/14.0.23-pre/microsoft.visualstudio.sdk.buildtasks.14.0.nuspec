@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.VisualStudio.Sdk.BuildTasks.14.0</id>
+    <version>14.0.23-pre</version>
+    <title>Microsoft.VisualStudio.Sdk.BuildTasks.14.0</title>
+    <authors>VisualStudioExtensibility</authors>
+    <owners>VisualStudioExtensibility</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <licenseUrl>https://go.microsoft.com/fwlink/?LinkID=746386</licenseUrl>
+    <iconUrl>https://aka.ms/vsextensibilityicon</iconUrl>
+    <description>Contains targets and tools for building VSIX projects targeting both Visual Studio 2015 and Visual Studio 2017. To target Visual Studio 2017, &lt;VsixType&gt;v3&lt;/VsixType&gt; needs to be added to your project file.</description>
+    <summary>Contains targets and tools for building VSIX projects targeting both Visual Studio 2015 and Visual Studio 2017. To target Visual Studio 2017, &lt;VsixType&gt;v3&lt;/VsixType&gt; needs to be added to your project file.</summary>
+    <releaseNotes>https://go.microsoft.com/fwlink/?linkid=836359</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Microsoft Build Tasks VSSDK 14 2015</tags>
+  </metadata>
+</package>

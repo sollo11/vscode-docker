@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>EditorUtils2013</id>
+    <version>1.4.1.1</version>
+    <title>EditorUtils 2013</title>
+    <authors>JaredPar</authors>
+    <owners>JaredPar</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Utility DLL for writing Visual Studio extensions (2013 and above)</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>VisualStudio; VSIX</tags>
+  </metadata>
+</package>
